@@ -20,7 +20,7 @@ contract ForensicContract {
         crime[crime.length-1].ipfsHash = _ipfsHash;
         return crime.length;        
     }
-    
+   
     function getPatCount() public view returns(uint) {
         return crime.length;
     }
